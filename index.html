@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Lexique – Résumés & QCM</title>
+<style>
+:root{--b:#0a4fa3;--c:#e9f2ff}
+*{box-sizing:border-box;font-family:Arial,Helvetica,sans-serif}
+body{margin:0;background:var(--c)}
+header{background:var(--b);color:#fff;padding:15px;text-align:center}
+header h1{margin:5px 0;font-size:22px}
+header h2{margin:0;font-size:14px;font-weight:normal}
+.big-title{
+background:#fff;
+color:#0a4fa3;
+text-align:center;
+padding:15px 10px;
+font-weight:bold;
+line-height:1.5;
+box-shadow:0 2px 6px rgba(0,0,0,.1)
+}
+.big-title span{display:block}
+nav{display:flex;flex-wrap:wrap;gap:8px;justify-content:center;background:#fff;padding:10px}
+nav button{border:none;padding:8px 12px;border-radius:6px;background:var(--b);color:#fff;cursor:pointer;font-size:14px}
+nav button:hover{opacity:.85}
+.section{display:none;padding:15px}
+.section.active{display:block}
+.card{background:#fff;border-radius:10px;padding:15px;margin-bottom:15px;box-shadow:0 2px 6px rgba(0,0,0,.1)}
+h2{color:var(--b)}
+.qcm-q{margin:10px 0;padding:10px;border:1px solid #ddd;border-radius:6px}
+.qcm-q label{display:block;margin:4px 0}
+.btn{background:var(--b);color:#fff;border:none;padding:8px 12px;border-radius:6px;margin:5px 0;cursor:pointer}
+.result{font-weight:bold;color:var(--b);margin-top:10px}
+@media(max-width:600px){
+h2{font-size:18px}
+nav button{font-size:12px;padding:6px}
+.big-title{font-size:14px}
+}
+</style>
+</head>
+<body>
+
+<header>
+<h1>Lexique --- Résumés & QCM</h1>
+<h2>Support pédagogique interactif</h2>
+</header>
+
+<!-- ====== TITRE AJOUTÉ ====== -->
+<div class="big-title">
+<span>Groupe scolaire Taghilast</span>
+<span>Unité scolaire Hadria</span>
+<span>Résumé des cours du lexique des unités 1, 2 et 3 pour le 5&6AEP 2025/2026 </span>
+<span> Pour le 5&6AEP 2025/2026 </span>
+</div>
+<nav>
+<button onclick="s(0)">Les gentilés</button>
+<button onclick="s(1)">Le dictionnaire</button>
+<button onclick="s(2)">Les synonymes</button>
+<button onclick="s(3)">Citoyenneté</button>
+<button onclick="s(4)">Les antonymes</button>
+<button onclick="s(5)">Technologie</button>
+<button onclick="s(6)">QCM</button>
+</nav>
+
+<!-- ================= SECTIONS COURS ================= -->
+
+<div id="c0" class="section active">
+<div class="card">
+<h2>1. Les gentilés</h2>
+<p><b>Définition :</b> Un gentilé désigne les habitants d’un pays, d’une ville ou d’une région.</p>
+<p><b>Formation :</b> Généralement on ajoute un suffixe au nom du lieu  e:</p>
+<ul>
+<li>-ain / -aine :  Maroc : Marocain (masculin) / Marocaine(féminin) </li>
+<li>-ien / -ienne : Italie : Italien (masculin) / Italienne (féminin) </li>
+<li>-ais / -aise : France : Français (masculin) / Française (féminin) </li>
+<li>-in / -ine : Argentine : Argentin (masculin) / Argentine (féminin</li>
+<li>-ois / -oise : Chine : Chinois (masculin) / Chinoise (féminin) </li>
+<li>-an / -ane : Amérique : Américain (masculin) / Américaine (féminin) </li>
+<li>-ol / -ole : Espagne : Espagnol (masculin) / Espagnole (féminin) </li>
+</ul>
+<p><b>Applications :</b></p>
+<ul>
+<li>Les habitants du Maroc sont des … <b>Marocains</b>.</li>
+<li>Les habitants de l’Espagne sont des … <b>Espagnols</b>.</li>
+</ul>
+</div>
+</div>
+
+<div id="c1" class="section">
+<div class="card">
+<h2>2. Le dictionnaire</h2>
+<p><b>Rôle :</b> Comprendre les différents sens d'un mot, sa prononciation et sa classe grammaticale(nom (n), verbe (v), adjectif (adj) adverbe (adv) ... ). </p>
+<p><b>Un article contient :</b> mot - nature - définition - exemple - synonymes.</p>
+<p><b>Exemple :</b></p>
+<p><b>Extraordinaire</b> (adj.) : qui sort de l’ordinaire.<br>
+Ex : Ce travail est extraordinaire.</p>
+<p><b>Applications :</b></p>
+<ul>
+<li>Cherche le mot <b>utile</b> et note sa définition.</li>
+<li>Trouve dans le dictionnaire un synonyme de <b>important</b>.</li>
+</ul>
+</div>
+</div>
+
+<div id="c2" class="section">
+<div class="card">
+<h2>3. Les synonymes</h2>
+<p><b>Définition :</b> Les synonymes sont des mots qui ont le même sens ou presque le meme sens.</p>
+<p><b>Exemples :</b></p>
+<ul>
+<li>ami : camarade</li>
+<li>content : joyeux</li>
+<li>rapide : vite</li>
+<li>lentement : doucement </li>
+<li>important : essentiel </li>
+<li> difficile : dure </li>
+<li> beau : magnifique</li>
+<li> travailler : exercer </li>
+<li> parler : discuter  </li>
+<li> aimer : adorer </li>
+<li> petit : miniscule  </li>
+<li> grand :  large </li>
+<li> facile :  aiser </li>
+<li> commencer  : débuter </li>
+<li> finir : terminer </li>
+<li> regarder : voir </li>
+<li> aider : assisster </li>
+<li> lieu : endroit ... </li>
+</ul>
+<p><b>Applications :</b></p>
+<ul>
+<li>Donne un synonyme de <b> commencer </b>.</li>
+<li>Remplace : Il est <b>triste</b> → Il est …</li>
+</ul>
+</div>
+</div>
+
+<div id="c3" class="section">
+<div class="card">
+<h2>4. Lexique de la citoyenneté</h2>
+<p><b>Définition :</b> La citoyenneté, c’est respecter les droits et les devoirs.</p>
+<p><b>Mots clés :</b> citoyen - comportement - droits - devoirs - respect - solidarité liberté - responsabilité - égalité - fraternité - paix - civisme - justice - valeurs - principe - éthique - politesse - respect mutuel - altruisme - empathie - droit à l'éducation - dialogue - médiation - conseiller - donner son avis - tavailler en équipe - coopération - société - identité - inclusion - diversité - cohésion sociale - éco-geste - propreté - recyclage - économiser d'eau - développement durable - économiser d'énergie - prtéger l'environnement - vote - élection - démocratie - engagement - débat - opinion - liberté d'expression - égalité des chances -acceptation - non-descrimination - acceptation des différences -communauté - patrie ... </p>
+<p><b>Exemples :</b></p>
+<ul>
+<li>Le droit d’aller à l’école.</li>
+<li>Je trie mes déchets.</li>
+<li>Je respecte les règles.</li>
+</ul>
+<p><b>Applications :</b></p>
+<ul>
+<li>Recycler → devoir, responsabilité, économiser d'énergie ...</li>
+<li>Être soigné → droit,.</li>
+<li> Utiliser des sacs en papier → éco-geste, propreté ...</li>
+</ul>
+</div>
+</div>
+
+<div id="c4" class="section">
+<div class="card">
+<h2>5. Les antonymes</h2>
+<p><b>Définition :</b> Les antonymes sont des mots de sens opposé.</p>
+<p><b>Exemples :</b></p>
+<ul>
+<li>grand ≠ petit</li>
+<li>entrer ≠ sortir</li>
+<li>heureux ≠ malheureux</li>
+<li> vivre ≠ mourir </li>
+<li> haut  ≠ bas </li>
+<li> riche ≠  pauvre </li>
+<li> rapide  ≠ lent  </li>
+<li> jeune ≠ vieux </li>
+<li> propre ≠  sale </li>
+<li>  aimer ≠ détester </li>
+<li> commencer ≠ finir  </li>
+<li> donner  ≠  recevoir </li>
+<li> acheter  ≠ vendre </li>
+<li> gagner ≠ perdre </li>
+<li> ouvrir  ≠ fermer </li>
+<li> avancer  ≠ reculer  </li>
+<li> travailler  ≠ se reposer </li>
+<li>  se lever ≠ s'endormir </li>
+<li> protéger  ≠  attaquer </li>
+<li>  mémoriser ≠ oublier  </li>
+<li> jour  ≠ nuit  </li>
+<li> amour  ≠ haine </li>
+<li> paix  ≠ guerre </li>
+<li> succès ≠  echec </li>
+<li> silence  ≠ bruit  </li>
+<li> vérité ≠  mensonge </li>
+<li> ami ≠  ennemi </li>
+<li> victoire  ≠ défaite  </li>
+<li> présence  ≠  absence </li>
+<li> toujours  ≠  jamais</li>
+<li> souvent  ≠  rarement </li>
+<li> tôt  ≠  tard </li>
+<li> tout   ≠ rien  </li>
+<li> beaucoup   ≠ peu  </li>
+<li>  avant  ≠  après </li>
+<li>   dadans ≠  dehors </li>
+<li> devant   ≠ derrière  </li>
+</ul>
+<p><b>Règle importante à retenir :</b> Les antonymes appartiennent à la même catégorie grammaticale.</p>
+<p><b>Applications :</b></p>
+<ul>
+<li>Antonyme de <b>propre</b> : …</li>
+<li>Antonyme de <b>rapide</b> : …</li>
+</ul>
+</div>
+</div>
+
+<div id="c5" class="section">
+<div class="card">
+<h2>6. Lexique de la technologie</h2>
+<p><b>Définition :</b> Vocabulaire lié à l’informatique, Internet et aux médias numériques.</p>
+<p><b>Mots :</b></p>
+<ul>
+<li>GPS : système global de localisation</li>
+<li>Logiciel : programme informatique</li>
+<li>Scanner : transformer en fichier numérique</li>
+<li>IPTV : télévision par Internet</li>
+</ul>
+<p><b>Applications :</b></p>
+<ul>
+<li>Je clique sur un … <b>lien</b>.</li>
+<li>J’envoie un … <b>e-mail</b>.</li>
+</ul>
+</div>
+</div>
+
+<!-- ================= QCM ================= -->
+
+<div id="c6" class="section">
+<div class="card">
+<h2>QCM : Évaluation finale</h2>
+<p>Réponds aux questions puis clique sur <b>Corriger</b>.</p>
+
+<div id="quiz"></div>
+<button class="btn" onclick="corriger()">Corriger</button>
+<div id="res" class="result"></div>
+</div>
+</div>
+
+<script>
+function s(i){
+document.querySelectorAll('.section')
+.forEach((e,n)=>e.classList.toggle('active',n===i));
+}
+
+const D=[
+["Un gentilé désigne…","un animal","un objet","les habitants","un métier",2],
+["Français est le gentilé de…","Italie","France","Espagne","Belgique",1],
+["Le dictionnaire sert à…","jouer","comprendre les sens des mots","dessiner","chanter",1],
+["Extraordinaire signifie…","normal","banal","qui sort de l’ordinaire","lent",2],
+["Un synonyme de content est…","triste","joyeux","fâché","peur",1],
+["Un synonyme de rapide est…","lent","vite","calme","bas",1],
+["Recycler est…","un droit","un devoir","un jeu","un loisir",1],
+["Aller à l’école est…","un devoir","une punition","un droit","un jeu",2],
+["L’antonyme de grand est…","haut","petit","large","beau",1],
+["L’antonyme de entrer est…","monter","sortir","ouvrir","aller",1],
+["Le GPS sert à…","écrire","localiser","dessiner","jouer",1],
+["Un logiciel est…","un livre","un programme","un sport","une boisson",1]
+];
+
+const Q=document.getElementById("quiz");
+D.forEach((q,i)=>{
+let h="<div class='qcm-q'><b>Q"+(i+1)+".</b> "+q[0];
+for(let j=1;j<=4;j++){
+h+=`<label><input type="radio" name="q${i}" value="${j-1}"> ${q[j]}</label>`;
+}
+h+="</div>";
+Q.innerHTML+=h;
+});
+
+function corriger(){
+let sc=0;
+D.forEach((q,i)=>{
+let r=document.querySelector('input[name="q'+i+'"]:checked');
+if(r && parseInt(r.value)===q[5]) sc++;
+});
+document.getElementById("res").innerHTML=
+"Score final : "+sc+" / "+D.length;
+}
+</script>
+
+</body>
+</html>
